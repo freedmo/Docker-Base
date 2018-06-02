@@ -5,4 +5,4 @@ This repo contains php, mysql and nginx. You can change version of this by the g
 
 # Install
 
-Since this repo is hard copied, the installation instructions can be found in the wiki of this repo.
+Since this repo is hard copied, the installation instructions can be found in the [wiki](https://github.com/freedmo/Docker-Base/wiki/Installation) of this repo.
