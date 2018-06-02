@@ -24,7 +24,7 @@ services:
       - "9001"
     environment:
       XDEBUG_ENABLE: "on" # Activate for general xdebug use
-      XDEBUG_REMOTE_DEBUG_ENABLE: "on"
+      XDEBUG_REMOTE_ENABLE: "on"
       XDEBUG_PROFILER_ENABLE: "on"
       XDEBUG_HOST_ADDRESS: "10.0.75.1"
   mysql-PROJECTNAME:
