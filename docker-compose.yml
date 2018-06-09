@@ -7,7 +7,7 @@ services:
     restart: always
     volumes:
       - ${PROJECT_PATH}:/var/www/${PROJECT_NAME}
-      - .\data\nginx\conf.d\:/etc/nginx/conf.d
+      - ./data/nginx/conf.d/:/etc/nginx/conf.d
     ports: 
       - "80:80"
       - "443:443"
